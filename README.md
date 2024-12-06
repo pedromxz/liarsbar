@@ -1,5 +1,3 @@
-# liarsbar
+# Liar's Bar
 
-# NOME DA DUPLA
-# GIAN LUCA DE ALMEIDA CHECONI
-# PEDRO MUSSIO DE FREITAS
+Gian Luca de Almeida Checoni e Pedro Mussio De Freitas, HTML e Bootstrap. LINK: https://pedromxz.github.io/liarsbar/
