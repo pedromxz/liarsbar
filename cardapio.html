@@ -1,0 +1,138 @@
+<!-- GIAN LUCA DE ALMEIDA CHECONI -->
+<!-- PEDRO MUSSIO DE FREITAS -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liar's Bar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_cardapio.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container bg-white mt-5 rounded p-3">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+            <a class="navbar-brand" href="#">LIAR'S BAR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicial</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="duvidas.html">Dúvidas e Sugestões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="horarios.html">Hórario de Funcionamento</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">LIAR'S BAR</h1>
+        <p class="lead">O lugar onde cada prato conta uma história.</p>
+    </div>
+
+    <!-- Container para o Cardápio -->
+    <div class="container my-2">
+        <h2 class="text-center mb-4 text-light">Nosso Cardápio Temático</h2>
+
+        <!-- Tabela do cardápio -->
+        <div class="container mt-5">
+
+            <!-- Tabela de produtos Usando GRID (Col) -->
+            <table class="table table-bordered table-striped table-light">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Prato</th>
+                        <th scope="col">Nome do Prato</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Preço</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Produto 1 -->
+                    <tr>
+                        <td><img src="images/prato 1.jpg" alt="Produto 1" class="product-image img-fluid"></td><!-- Bootstrap para ficar responsivo -->
+                        <td><strong>O Grande Farsa</strong></td>
+                        <td>Burguer de carne com queijo cheddar, alface, tomate e molho de barbecue.</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <!-- Produto 2 -->
+                    <tr>
+                        <td><img src="images/prato 2.jpg" alt="Produto 2" class="product-image img-fluid"></td>
+                        <td><strong>Mentira ao Ponto</strong></td>
+                        <td>Picanha grelhada, servida com arroz, feijão e batatas rústicas.</td>
+                        <td>R$ 49,00</td>
+                    </tr>
+
+                    <!-- Produto 3 -->
+                    <tr>
+                        <td><img src="images/prato 3.webp" alt="Produto 3" class="product-image img-fluid"></td>
+                        <td><strong>O Engano Vegetariano</strong></td>
+                        <td>Hambúrguer vegetariano de grão de bico, abacate e molho tahine, com salada.</td>
+                        <td>R$ 30,00</td>
+                    </tr>
+
+                    <!-- Produto 4 -->
+                    <tr>
+                        <td><img src="images/prato 4.png" alt="Produto 4" class="product-image img-fluid"></td>
+                        <td><strong>Falsidade do Mar</strong></td>
+                        <td>Filé de peixe grelhado com molho de limão, acompanhado de arroz e legumes.
+                        </td>
+                        <td>R$ 42,00</td>
+                    </tr>
+
+                    <!-- Produto 5 -->
+                    <tr>
+                        <td><img src="images/prato 5.jpg" alt="Produto 5" class="product-image img-fluid"></td>
+                        <td><strong>Desatino do Chef</strong></td>
+                        <td>Ravioli de ricota e espinafre, com molho de manteiga, sálvia e queijo parmesão.</td>
+                        <td>R$ 38,00</td>
+
+                    </tr>
+
+                    <!-- Produto 6 -->
+                    <tr>
+                        <td><img src="images/prato 6.png" alt="Produto 6" class="product-image img-fluid"></td>
+                        <td><strong>O Truque Doce</strong></td>
+                        <td>Sobremesa de chocolate com frutas vermelhas, acompanhada de sorvete de creme.</td>
+                        <td>R$ 22,00</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk4U26EihhL6D6NedRYjp/6K7ujDz2Z4yM6arx"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
